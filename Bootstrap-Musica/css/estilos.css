@@ -3,3 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
+.imagen{
+  width: 100%;
+}
+.red-social{
+  width:4vw;
+}
+.navegadorestilos a{
+  color: white;
+  padding: 15px;
+}
+.menu{
+  width: 100%;
+}
+.navbar{
+  padding:0 !important;
+}
+.nav-link:hover{
+  background: #fff;
+  color:#000;
+}
+.form-control-feedback {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.form-control {
+  padding-left: 30px!important;
+}
+.btn-group-vertical{
+  width:100%
+}

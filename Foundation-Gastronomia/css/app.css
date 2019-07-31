@@ -28,3 +28,11 @@ h6,a{
 .menu{
   margin-bottom:  15px;
 }
+.derecha{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+textarea{
+  margin-bottom: 0;
+}

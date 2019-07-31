@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.grid-container{
+  width: 90%;
+  margin: auto;
+  background: rgba(80,120,255,0.6);
+}
+.form-control-feedback{
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.form-control {
+  padding-left: 30px!important;
+}
+h6,a{
+  color: #b71c1c;
+}
+.menu{
+  margin-bottom:  15px;
+}

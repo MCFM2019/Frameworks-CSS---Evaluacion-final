@@ -8,8 +8,101 @@
   <link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen, projection">
   <title>Turismo Materialize</title>
 </head>
-<body>
+<body class="contenedor">
+    <nav class="row">
+      <div class="col m2 offset-m1 contlogo">
+        <img class="logo" src="img/Logo.jpg">
+      </div>
+      <div class="col m9">
+        <div class="row">
+          <ul class="right">
+            <li><a class="btn" href="#"><i class="material-icons left">home</i>Inicio</a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">location_on</i>Estuve en</a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">star</i>Mejores sitios</a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">chat</i>Recomendaciones</a></li>
+          </ul>
+        </div>
+        <div class="row">
+          <h5><em>Conociendo el Perú</em></h5>
+        </div>
+      </div>
+    </nav>
 
+    <!-- Redes y galería -->
+    <div class="row contgaleria">
+      <!-- Redes -->
+      <div class="col m1">
+        <ul>
+          <li><a href="#"><img class="red-social" src="img/facebook.png"></a></li>
+          <li><a href="#"><img class="red-social" src="img/twitter.png"></a></li>
+          <li><a href="#"><img class="red-social" src="img/instagram.png"></a></li>
+          <li><a href="#"><img class="red-social" src="img/youtube.png"></a></li>
+          <li><a href="#"><img class="red-social" src="img/skype.png"></a></li>
+        </ul>
+      </div>
+      <!-- Galería -->
+      <div class="col m11">
+        <div class="row">
+          <div class="col m4">
+            <img class="galeria z-depth-5" src="img/img1.jpg">
+            <img class="galeria z-depth-5" src="img/img2.jpg">
+          </div>
+          <div class="col m4">
+            <img class="galeria z-depth-5" src="img/img3.jpg">
+          </div>
+          <div class="col m4">
+            <img class="galeria z-depth-5" src="img/img4.jpg">
+            <img class="galeria z-depth-5" src="img/img5.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blog y autor -->
+    <div class="row">
+      <!-- Blog -->
+      <div class="col m9">
+        <div class="card-content white">
+          <div class="card-image">
+            <img class="imgblog" src="img/cont1.jpg">
+          </div>
+          <h5 class="card-title">Caral</h5>
+          <div class="chip"><i class="material-icons right">date_range</i>23 de Enero del 2019</div>
+          <div class="chip"><i class="material-icons right">location_on</i>Ica - Perú</div>
+          <p>Caral es un sitio arqueológico donde se hallan los restos de la principal ciudad de la civilización Caral. Se encuentra en el valle de Supe, a 182 kilómetros al norte de Lima (Perú), a 23 km del litoral y a 350 msnm. Se le atribuye una antigüedad de 5000 años y es considerada la ciudad más antigua de América, pues no se ha encontrado hasta ahora en dicho continente otro sitio más antiguo con semejante diversidad de edificios monumentales, con distintas funciones ceremoniales y administrativas. Ha sido declarada Patrimonio Cultural de la Humanidad por la UNESCO.</p>
+          <p class="segundoparrafo">La cultura Caral se desarrolló entre 3000 y 1800 a. C. (Arcaico Tardío y Formativo Inferior) es decir, fue contemporánea de otras civilizaciones primigenias como las de Egipto, India, Sumeria, China, pero a diferencia de ellas (que intercambiaron sus logros), se desarrolló en completo aislamiento. En América, es la más antigua de las civilizaciones prehispánicas, superando en 1500 años a la civilización Olmeca, otro importante foco civilizatorio situado en Mesoamérica.</p>
+
+          <textarea name="name" rows="1" cols="80" placeholder="Comentario..."></textarea>
+        </div>
+
+        <div class="card-content white">
+          <div class="card-image">
+            <img class="imgblog" src="img/cont1.jpg">
+          </div>
+          <h5 class="card-title">Líneas de Nazca</h5>
+          <div class="chip"><i class="material-icons right">date_range</i>19 de Abril del 2019</div>
+          <div class="chip"><i class="material-icons right">location_on</i>Lima - Perú</div>
+          <p>Las líneas de Nazca y geoglifos de pampas de Jumana o simplemente líneas de nazca son antiguos geoglifos​ que se encuentran en las pampas de Jumana, en el desierto de Nazca, entre las poblaciones de Nazca y Palpa, en el departamento de Ica (Perú). Fueron trazadas por la cultura nazca y están compuestas por varios cientos de figuras que abarcan desde diseños tan simples como líneas hasta complejas figuras zoomorfas, fitomorfas y geométricas que aparecen trazadas sobre la superficie terrestre. Desde 1994, el Comité de la Unesco ha inscrito Las líneas y geoglifos de Nazca y de Pampas de Jumana como Patrimonio de la Humanidad. Sin embargo, en los últimos años han sufrido graves daños por la construcción de la carretera panamericana y las rodadas de todoterrenos.</p>
+          <p class="segundoparrafo">Aunque pueden ser vistas parcialmente desde las colinas próximas, los primeros en distinguirlas fueron pilotos militares y civiles peruanos. En 1932 los arqueólogos Julio César Tello y Toribio Mejía Xesspe realizaron la primera investigación científica sobre las líneas. Tello conjeturaba que se trataba de simples caminos. En 1942 prosigue sus investigaciones el historiador estadounidense John Rowe, quien las considera “centros de adoración”.</p>
+
+          <textarea name="name" rows="1" cols="80" placeholder="Comentario..."></textarea>
+        </div>        
+      </div>
+      <!-- Autor -->
+      <div class="col m3">
+        <div class="card">
+          <div class="valign-wrapper">
+            <div class="valign center-align autor">
+              <img src="img/autor.jpg" class="circle ">
+              <h5 class="valign center-align">Perfil del autor</h5>
+              <hr>
+              <p>El autor intenta plasmar en este blog, las experiencias y aventuras vividas en las diferentes regiones del Perú. Esperando que sean de su agrado y que pronto puedan visitar los paisajes que ofrece este maravilloso país.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.css"></script>

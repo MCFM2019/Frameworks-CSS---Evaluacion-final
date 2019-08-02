@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor{
+  background: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+nav{
+  background: #42a5f5;
+  height: 120px;
+}
+.contlogo{
+  max-height: 120px;
+}
+.logo{
+  margin-top: 10px;
+  border-radius: 15px;
+  width:100%;
+}
+.btn{
+  background: #0d47a1;
+}
+.red-social{
+  filter:opacity(0.6);
+  width: 6vw;
+}
+.contgaleria{
+  margin-top: 50px;
+}
+.galeria{
+  width:100%
+}
+.autor{
+  padding: 20px;
+}
+.imgblog{
+  float:left;
+  margin:0 10px 10px 0;
+}
+.card-content{
+  padding:10px;
+}
+.segundoparrafo{
+  margin-bottom: 10px;
+}
+.card-content{
+  margin-bottom: 20px;
+}

@@ -40,6 +40,7 @@ nav{
 .imgblog{
   float:left;
   margin:0 10px 10px 0;
+  width: 100%;
 }
 .card-content{
   padding:10px;

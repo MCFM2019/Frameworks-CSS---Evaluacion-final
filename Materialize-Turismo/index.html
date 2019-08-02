@@ -10,16 +10,16 @@
 </head>
 <body class="contenedor">
     <nav class="row">
-      <div class="col m2 offset-m1 contlogo">
+      <div class="col m2 offset-m1 s3 contlogo">
         <img class="logo" src="img/Logo.jpg">
       </div>
-      <div class="col m9">
+      <div class="col m9 s9">
         <div class="row">
           <ul class="right">
-            <li><a class="btn" href="#"><i class="material-icons left">home</i>Inicio</a></li>
-            <li><a class="btn" href="#"><i class="material-icons left">location_on</i>Estuve en</a></li>
-            <li><a class="btn" href="#"><i class="material-icons left">star</i>Mejores sitios</a></li>
-            <li><a class="btn" href="#"><i class="material-icons left">chat</i>Recomendaciones</a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">home</i><span class="hide-on-small-only">Inicio</span></a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">location_on</i><span class="hide-on-small-only">Estuve en</span></a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">star</i><span class="hide-on-small-only">Mejores sitios</span></a></li>
+            <li><a class="btn" href="#"><i class="material-icons left">chat</i><span class="hide-on-small-only">Recomendaciones</span></a></li>
           </ul>
         </div>
         <div class="row">
@@ -31,7 +31,7 @@
     <!-- Redes y galería -->
     <div class="row contgaleria">
       <!-- Redes -->
-      <div class="col m1">
+      <div class="col m1 hide-on-small-only">
         <ul>
           <li><a href="#"><img class="red-social" src="img/facebook.png"></a></li>
           <li><a href="#"><img class="red-social" src="img/twitter.png"></a></li>
@@ -63,7 +63,7 @@
       <!-- Blog -->
       <div class="col m9">
         <div class="card-content white">
-          <div class="card-image">
+          <div class="col m5 card-image">
             <img class="imgblog" src="img/cont1.jpg">
           </div>
           <h5 class="card-title">Caral</h5>
@@ -76,7 +76,7 @@
         </div>
 
         <div class="card-content white">
-          <div class="card-image">
+          <div class="col m5 card-image">
             <img class="imgblog" src="img/cont1.jpg">
           </div>
           <h5 class="card-title">Líneas de Nazca</h5>
@@ -86,14 +86,16 @@
           <p class="segundoparrafo">Aunque pueden ser vistas parcialmente desde las colinas próximas, los primeros en distinguirlas fueron pilotos militares y civiles peruanos. En 1932 los arqueólogos Julio César Tello y Toribio Mejía Xesspe realizaron la primera investigación científica sobre las líneas. Tello conjeturaba que se trataba de simples caminos. En 1942 prosigue sus investigaciones el historiador estadounidense John Rowe, quien las considera “centros de adoración”.</p>
 
           <textarea name="name" rows="1" cols="80" placeholder="Comentario..."></textarea>
-        </div>        
+        </div>
       </div>
       <!-- Autor -->
       <div class="col m3">
-        <div class="card">
+        <div class="card-content white">
           <div class="valign-wrapper">
             <div class="valign center-align autor">
-              <img src="img/autor.jpg" class="circle ">
+              <div class="card-image">
+                <img src="img/autor.jpg" class="imgblog circle ">
+              </div>
               <h5 class="valign center-align">Perfil del autor</h5>
               <hr>
               <p>El autor intenta plasmar en este blog, las experiencias y aventuras vividas en las diferentes regiones del Perú. Esperando que sean de su agrado y que pronto puedan visitar los paisajes que ofrece este maravilloso país.</p>
